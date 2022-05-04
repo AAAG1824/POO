@@ -80,3 +80,4 @@ D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.vbproj.CopyComplete
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.exe
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.xml
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.pdb
+D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.login.resources
