@@ -1,5 +1,10 @@
 ﻿Public Class Form1
-    Private Sub BunifuProgressBar1_ProgressChanged(sender As Object, e As Bunifu.UI.WinForms.BunifuProgressBar.ProgressChangedEventArgs)
 
+    Private Sub BunifuTextBox1_TextChanged(sender As Object, e As EventArgs) Handles BunifuButton1.FontChanged
+
+    End Sub
+
+    Private Sub BunifuPictureBox1_Click(sender As Object, e As EventArgs) Handles BunifuPictureBox1.Click
+        Me.Close()
     End Sub
 End Class
