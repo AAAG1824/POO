@@ -24,7 +24,7 @@ Partial Class login
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
-        Dim BorderEdges4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Me.BunifuElipse2 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
@@ -91,16 +91,16 @@ Partial Class login
         Me.BunifuButton2.BackColor1 = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(122, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.BunifuButton2.BackgroundImage = CType(resources.GetObject("BunifuButton2.BackgroundImage"), System.Drawing.Image)
         Me.BunifuButton2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Dash
-        Me.BunifuButton2.ButtonText = "Ventas"
+        Me.BunifuButton2.ButtonText = "Aceptar"
         Me.BunifuButton2.ButtonTextMarginLeft = 0
         Me.BunifuButton2.ColorContrastOnClick = 45
         Me.BunifuButton2.ColorContrastOnHover = 45
         Me.BunifuButton2.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges4.BottomLeft = False
-        BorderEdges4.BottomRight = False
-        BorderEdges4.TopLeft = False
-        BorderEdges4.TopRight = False
-        Me.BunifuButton2.CustomizableEdges = BorderEdges4
+        BorderEdges2.BottomLeft = False
+        BorderEdges2.BottomRight = False
+        BorderEdges2.TopLeft = False
+        BorderEdges2.TopRight = False
+        Me.BunifuButton2.CustomizableEdges = BorderEdges2
         Me.BunifuButton2.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuButton2.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BunifuButton2.DisabledFillColor = System.Drawing.Color.Empty
@@ -188,6 +188,7 @@ Partial Class login
         Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "login"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "login"
         Me.Panel2.ResumeLayout(False)
         CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
