@@ -23,14 +23,15 @@ Partial Class login
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim BorderEdges1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
-        Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Me.BunifuElipse2 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuButton2 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.BunifuCheckBox1 = New Bunifu.UI.WinForms.BunifuCheckBox()
         Me.Panel2.SuspendLayout()
         CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -96,11 +97,11 @@ Partial Class login
         Me.BunifuButton2.ColorContrastOnClick = 45
         Me.BunifuButton2.ColorContrastOnHover = 45
         Me.BunifuButton2.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges2.BottomLeft = False
-        BorderEdges2.BottomRight = False
-        BorderEdges2.TopLeft = False
-        BorderEdges2.TopRight = False
-        Me.BunifuButton2.CustomizableEdges = BorderEdges2
+        BorderEdges1.BottomLeft = False
+        BorderEdges1.BottomRight = False
+        BorderEdges1.TopLeft = False
+        BorderEdges1.TopRight = False
+        Me.BunifuButton2.CustomizableEdges = BorderEdges1
         Me.BunifuButton2.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuButton2.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BunifuButton2.DisabledFillColor = System.Drawing.Color.Empty
@@ -176,12 +177,66 @@ Partial Class login
         Me.TextBox1.Size = New System.Drawing.Size(150, 20)
         Me.TextBox1.TabIndex = 7
         '
+        'BunifuCheckBox1
+        '
+        Me.BunifuCheckBox1.AllowBindingControlAnimation = True
+        Me.BunifuCheckBox1.AllowBindingControlColorChanges = False
+        Me.BunifuCheckBox1.AllowBindingControlLocation = True
+        Me.BunifuCheckBox1.AllowCheckBoxAnimation = False
+        Me.BunifuCheckBox1.AllowCheckmarkAnimation = True
+        Me.BunifuCheckBox1.AllowOnHoverStates = True
+        Me.BunifuCheckBox1.AutoCheck = True
+        Me.BunifuCheckBox1.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCheckBox1.BackgroundImage = CType(resources.GetObject("BunifuCheckBox1.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuCheckBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.BunifuCheckBox1.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right
+        Me.BunifuCheckBox1.BorderRadius = 12
+        Me.BunifuCheckBox1.Checked = False
+        Me.BunifuCheckBox1.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Unchecked
+        Me.BunifuCheckBox1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuCheckBox1.CustomCheckmarkImage = Nothing
+        Me.BunifuCheckBox1.Location = New System.Drawing.Point(486, 343)
+        Me.BunifuCheckBox1.MinimumSize = New System.Drawing.Size(17, 17)
+        Me.BunifuCheckBox1.Name = "BunifuCheckBox1"
+        Me.BunifuCheckBox1.OnCheck.BorderColor = System.Drawing.Color.DodgerBlue
+        Me.BunifuCheckBox1.OnCheck.BorderRadius = 12
+        Me.BunifuCheckBox1.OnCheck.BorderThickness = 2
+        Me.BunifuCheckBox1.OnCheck.CheckBoxColor = System.Drawing.Color.DodgerBlue
+        Me.BunifuCheckBox1.OnCheck.CheckmarkColor = System.Drawing.Color.White
+        Me.BunifuCheckBox1.OnCheck.CheckmarkThickness = 2
+        Me.BunifuCheckBox1.OnDisable.BorderColor = System.Drawing.Color.LightGray
+        Me.BunifuCheckBox1.OnDisable.BorderRadius = 12
+        Me.BunifuCheckBox1.OnDisable.BorderThickness = 2
+        Me.BunifuCheckBox1.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent
+        Me.BunifuCheckBox1.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray
+        Me.BunifuCheckBox1.OnDisable.CheckmarkThickness = 2
+        Me.BunifuCheckBox1.OnHoverChecked.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCheckBox1.OnHoverChecked.BorderRadius = 12
+        Me.BunifuCheckBox1.OnHoverChecked.BorderThickness = 2
+        Me.BunifuCheckBox1.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCheckBox1.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White
+        Me.BunifuCheckBox1.OnHoverChecked.CheckmarkThickness = 2
+        Me.BunifuCheckBox1.OnHoverUnchecked.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCheckBox1.OnHoverUnchecked.BorderRadius = 12
+        Me.BunifuCheckBox1.OnHoverUnchecked.BorderThickness = 1
+        Me.BunifuCheckBox1.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent
+        Me.BunifuCheckBox1.OnUncheck.BorderColor = System.Drawing.Color.DarkGray
+        Me.BunifuCheckBox1.OnUncheck.BorderRadius = 12
+        Me.BunifuCheckBox1.OnUncheck.BorderThickness = 1
+        Me.BunifuCheckBox1.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent
+        Me.BunifuCheckBox1.Size = New System.Drawing.Size(21, 21)
+        Me.BunifuCheckBox1.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Round
+        Me.BunifuCheckBox1.TabIndex = 9
+        Me.BunifuCheckBox1.ThreeState = False
+        Me.BunifuCheckBox1.ToolTipText = Nothing
+        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.BunifuCheckBox1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.BunifuButton2)
         Me.Controls.Add(Me.PictureBox1)
@@ -204,4 +259,5 @@ Partial Class login
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuButton2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents BunifuCheckBox1 As Bunifu.UI.WinForms.BunifuCheckBox
 End Class
