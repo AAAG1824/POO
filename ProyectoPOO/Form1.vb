@@ -6,5 +6,6 @@
 
     Private Sub BunifuPictureBox1_Click(sender As Object, e As EventArgs) Handles BunifuPictureBox1.Click
         Me.Close()
+        login.Close()
     End Sub
 End Class
