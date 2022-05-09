@@ -81,3 +81,7 @@ D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.exe
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.xml
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.pdb
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.login.resources
+D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.MenuVentas.resources
+D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.MenuInventario.resources
+D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.MenuPersonas.resources
+D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.MenuProveedores.resources

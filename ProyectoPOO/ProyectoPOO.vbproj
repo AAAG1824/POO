@@ -191,6 +191,36 @@
     <Compile Include="login.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MenuFactura.Designer.vb">
+      <DependentUpon>MenuFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuInventario.Designer.vb">
+      <DependentUpon>MenuInventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuInventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPersonas.Designer.vb">
+      <DependentUpon>MenuPersonas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPersonas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuProveedores.Designer.vb">
+      <DependentUpon>MenuProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuVentas.Designer.vb">
+      <DependentUpon>MenuVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -214,6 +244,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuFactura.resx">
+      <DependentUpon>MenuFactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuInventario.resx">
+      <DependentUpon>MenuInventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPersonas.resx">
+      <DependentUpon>MenuPersonas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuProveedores.resx">
+      <DependentUpon>MenuProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuVentas.resx">
+      <DependentUpon>MenuVentas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
